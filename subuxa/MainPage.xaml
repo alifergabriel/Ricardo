@@ -3,6 +3,32 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="subuxa.MainPage">
 
+   <Grid> 
+
+  <Image Source="2.png"
+   Aspect="Fill"/>
+   <Image Source="3.png"
+   Aspect="AspectFit"
+   VerticalOptions="End"
+   Margin="0,0,0,140"/>
+   <Image Source="4.png"
+   Aspect="AspectFit"/>
+   <Image Source="5.png"
+   Aspect="AspectFit"
+   VerticalOptions="End"
+   Margin="0,0,0,120"/>
+   <Image Source="6.png"
+   Aspect="AspectFit"
+   Margin="0,0,0,75"
+   VerticalOptions="End"/>
+   <Image Source="7.jpg"
+   VerticalOptions="End"/>
+   <Image Source="8.jpg"
+    VerticalOptions="End"
+    HorizontalOptions="Start"
+    HeightRequest="75"
+    Aspect="Fill"/>
    
+   </Grid>
 
 </ContentPage>
