@@ -3,84 +3,91 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="subuxa.MainPage">
 
- <Grid>
-  <HorizontalStackLayout x:Name="HSLayer1">
-  <Image Source="ceu.png"
-   Aspect="Fill"/>
-     <Image Source="ceu.png"
-   Aspect="Fill"/>
-     <Image Source="ceu.png"
-   Aspect="Fill"/>
-   </HorizontalStackLayout>
-   <HorizontalStackLayout x:Name="HSLayer2">
-   <Image Source="fundo1.png"
-   Aspect="Fill"
-   VerticalOptions="End"/>
-   <Image Source="fundo1.png"
-   Aspect="Fill"
-   VerticalOptions="End"/>
-   <Image Source="fundo1.png"
-   Aspect="Fill"
-   VerticalOptions="End"/>
-   </HorizontalStackLayout>
-   <HorizontalStackLayout x:Name="HSLayer3">
-   <Image Source="fundo2.png"
-   Aspect="Fill"/>
-    <Image Source="fundo2.png"
-   Aspect="Fill"/>
-    <Image Source="fundo2.png"
-   Aspect="Fill"/>
-   </HorizontalStackLayout>
-   <HorizontalStackLayout x:Name="HSLayer4">
-   <Image Source="fundo3.png"
-   Aspect="Fill"
-   VerticalOptions="End"/>
-    <Image Source="fundo3.png"
-   Aspect="Fill"
-   VerticalOptions="End"/>
-    <Image Source="ffundo3.png"
-   Aspect="Fill"
-   VerticalOptions="End"/>
-   </HorizontalStackLayout>
-   <HorizontalStackLayout x:Name="HSLayer5">
-   <Image Source="arvore.png"
-   Aspect="Fill"
-   VerticalOptions="End"/>
-   <Image Source="arvore.png"
-   Aspect="Fill"
-   VerticalOptions="End"/>
-   <Image Source="arvore.png"
-   Aspect="Fill"
-   VerticalOptions="End"/>
-   </HorizontalStackLayout>
-    <HorizontalStackLayout x:Name="HSLayer6">
-   <Image Source="fundo4.png"
-   Aspect="Fill"
-   VerticalOptions="End"/>
-   <Image Source="fundo4.png"
-   Aspect="Fill"
-   VerticalOptions="End"/>
-   <Image Source="fundo4.png"
-   Aspect="Fill"
-   VerticalOptions="End"/>
-   </HorizontalStackLayout>
-   <HorizontalStackLayout x:Name="HSLayer7">
-   <Image Source="chao.png"
-    VerticalOptions="End"
-    HorizontalOptions="Start"
-    HeightRequest="100"
-    Aspect="Fill"/>
-    <Image Source="chao.png"
-    VerticalOptions="End"
-    HorizontalOptions="Start"
-    HeightRequest="100"
-    Aspect="Fill"/>
-    <Image Source="chao.png"
-    VerticalOptions="End"
-    HeightRequest="100"
-    HorizontalOptions="Start"
-    Aspect="Fill"/>
+  <Grid>
+    <HorizontalStackLayout x:Name="HSLayer1">
+      <Image Source="ceu.png"
+             Aspect="Fill"/>
+      <Image Source="ceu.png"
+             Aspect="Fill"/>
+      <Image Source="ceu.png"
+             Aspect="Fill"/>
     </HorizontalStackLayout>
-   </Grid>
+    <HorizontalStackLayout x:Name="HSLayer2">
+      <Image Source="fundo1.png"
+             Aspect="Fill"
+             VerticalOptions="End"/>
+      <Image Source="fundo1.png"
+             Aspect="Fill"
+             VerticalOptions="End"/>
+      <Image Source="fundo1.png"
+             Aspect="Fill"
+             VerticalOptions="End"/>
+    </HorizontalStackLayout>
+    <HorizontalStackLayout x:Name="HSLayer3">
+      <Image Source="fundo2.png"
+             Aspect="Fill"/>
+      <Image Source="fundo2.png"
+             Aspect="Fill"/>
+      <Image Source="fundo2.png"
+             Aspect="Fill"/>
+    </HorizontalStackLayout>
+    <HorizontalStackLayout x:Name="HSLayer4">
+      <Image Source="fundo3.png"
+             Aspect="Fill"
+             VerticalOptions="End"/>
+      <Image Source="fundo3.png"
+             Aspect="Fill"
+             VerticalOptions="End"/>
+      <Image Source="fundo3.png"
+             Aspect="Fill"
+             VerticalOptions="End"/>
+    </HorizontalStackLayout>
+    <HorizontalStackLayout x:Name="HSLayer5">
+      <Image Source="arvore.png"
+             Aspect="Fill"
+             VerticalOptions="End"/>
+      <Image Source="arvore.png"
+             Aspect="Fill"
+             VerticalOptions="End"/>
+      <Image Source="arvore.png"
+             Aspect="Fill"
+             VerticalOptions="End"/>
+    </HorizontalStackLayout>
+    <HorizontalStackLayout x:Name="HSLayer6">
+      <Image Source="fundo4.png"
+             Aspect="Fill"
+             VerticalOptions="End"/>
+      <Image Source="fundo4.png"
+             Aspect="Fill"
+             VerticalOptions="End"/>
+      <Image Source="fundo4.png"
+             Aspect="Fill"
+             VerticalOptions="End"/>
+    </HorizontalStackLayout>
+    <HorizontalStackLayout x:Name="HSLayer7">
+      <Image Source="chao.png"
+             VerticalOptions="End"
+             HorizontalOptions="Start"
+             HeightRequest="100"
+             Aspect="Fill"/>
+      <Image Source="chao.png"
+             VerticalOptions="End"
+             HorizontalOptions="Start"
+             HeightRequest="100"
+             Aspect="Fill"/>
+      <Image Source="chao.png"
+             VerticalOptions="End"
+             HeightRequest="100"
+             HorizontalOptions="Start"
+             Aspect="Fill"/>
+    </HorizontalStackLayout>
+    <Image x:Name="imgPlayer"
+           VerticalOptions="End"
+           Margin="0,0,0,100"
+           HeightRequest="150"
+           WidthRequest="150"
+           HorizontalOptions="Start"
+           Aspect="Fill"/>
+  </Grid>
 
 </ContentPage>
