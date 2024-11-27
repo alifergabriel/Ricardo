@@ -1,18 +1,18 @@
 using System.Linq.Expressions;
+using FFImageLoading.Maui;
 namespace subuxa;
 public class Animacao
 {
     protected List<string> Animacao1 = new List<string>();
     protected List<string> Animacao2 = new List<string>();
     protected List<string> Animacao3 = new List<string>();
-
     protected bool Loop = true;
-
     protected int AnimacaoAtiva = 1;
+    protected CachedImageView CompImagem;
     bool Parado = true;
     int FrameAtual = 1;
-    protected Image CompImagem;
-    public Animacao(Image a)
+    
+    public Animacao(CachedImageView a)
     {
         CompImagem = a;
     }
